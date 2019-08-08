@@ -10,7 +10,7 @@ const users = [
         user2: 'user2'
     },
     {
-        user3: 'process.env.secretUser'
+        user3: 'user3'
     },
 
 ]
