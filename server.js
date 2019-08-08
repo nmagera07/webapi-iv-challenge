@@ -1,5 +1,3 @@
-require('dotenv').config()
-
 const express = require('express')
 
 const server = express()
@@ -12,7 +10,7 @@ const users = [
         user2: 'user2'
     },
     {
-        user3: 'user3'
+        user3: 'process.env.secretUser'
     },
 
 ]
